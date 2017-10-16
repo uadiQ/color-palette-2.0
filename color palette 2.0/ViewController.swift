@@ -53,7 +53,7 @@ class ViewController: UIViewController {
         blueLabel.text = "\(Int(blueSlider.value))"
         alphaLabel.text = ("\(Int(alphaSlider.value))")
     }
-    
+    //comment to commit
     func updatePaletteColor()
     {
         let redColor: CGFloat = CGFloat(redSlider.value) / 255.0
